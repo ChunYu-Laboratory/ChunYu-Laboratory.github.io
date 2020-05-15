@@ -1,7 +1,14 @@
 @import url(fontawesome-all.min.css);
-@import url(https://chunyu-laboratory.github.io/profile/assets/fonts/JetBrainsMono/);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC);
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('../fonts/JetBrainsMono-Regular.woff') format("woff"),
+		url('../fonts/JetBrainsMono-Regular.woff2') format("woff2"),
+		url('../fonts/JetBrainsMono-Regular.ttf') format("truetype"),
+		url('../fonts/JetBrainsMono-Regular.eot') format("embedded-opentype");
+  }
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
